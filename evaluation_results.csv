@@ -1,0 +1,43 @@
+Method,id,Symptom-ground truth,Symptom-identification,Root cause-ground truth,Root cause-identification,Fix pattern-ground truth,Fix pattern-identification,Latency (s)
+DBF-Assistant,Extra-P1,Incorrect output,Incorrect output,Configuration error,Configuration error,Modify build argument,Modify build argument,83.44
+DBF-Assistant,Extra-P2,Build failure,Build failure,Security error,Security error,Delete redundant files,Add missing permission,81.45
+DBF-Assistant,Extra-P3,Unexpected process,Unexpected process,Execution error,Execution error,Modify code/script logic,Add build argument,84.64
+DBF-Assistant,Extra-P4,Initialization faiure,Initialization faiure,Configuration error,Configuration error,Change path/location,Change path/location,76.9
+DBF-Assistant,Extra-P5,Build failure,Build failure,Environment error,Execution error,Upgrade Docker version,Change command parameter,49.55
+DBF-Assistant,Extra-P6,Build failure,Build failure,Execution error,Execution error,Modify build argument,Change command parameter,75.85
+DBF-Assistant,Extra-P7,Build failure,Initialization failure,Resource error,Configuration error,Change path/location,Change command parameter,48.21
+DBF-Assistant,Extra-P8,Build failure,Initialization failure,Security error,Configuration error,Modify authentication setting,Modify authentication setting,50.85
+DBF-Assistant,Extra-P9,Build failure,Build failure,Environment error,Dependency error,Change container architecture,Add missing dependency ,121.63
+DBF-Assistant,Extra-P10,Build failure,Unexpected process,Dependency error,Dependency error,Change file name,Add missing dependency,85.5
+DBF-Assistant,Extra-P11,Build failure,Build failure,Security error,Security error,Change file/directory permission,Change file/directory permission,77.83
+DBF-Assistant,Extra-P12,Build failure,Build failure,Dependency error,Dependency error,Use compatible dependency,Use compatible dependency,69.24
+DBF-Assistant,Extra-P13,Build failure,Build failure,Dependency error,Dependency error,Downgrade dependency version,Downgrade dependency version,93.71
+DBF-Assistant,Extra-P14,build failure,build failure,Execution error,Execution error,Modify tool/plugin setting,Modify tool/plugin setting,71.32
+DBF-Assistant wo knowledge,Extra-P1,Incorrect output,Incorrect output,Configuration error,Execution error,Modify build argument,Change command parameter,32.68
+DBF-Assistant wo knowledge,Extra-P2,Build failure,Initialization faiure,Security error,Environment error,Delete redundant files,Change OS environment,26.77
+DBF-Assistant wo knowledge,Extra-P3,Unexpected process,Unexpected process,Execution error,Execution error,Modify code/script logic,Change command parameter,30.14
+DBF-Assistant wo knowledge,Extra-P4,Initialization faiure,Incorrect output,Configuration error,Execution error,Change path/location,Change command parameter,38.23
+DBF-Assistant wo knowledge,Extra-P5,Build failure,Unexpected process,Environment error,Execution error,Upgrade Docker version,Change command parameter,?28.81
+DBF-Assistant wo knowledge,Extra-P6,Build failure,Build failure,Execution error,Execution error,Modify build argument,Change command parameter,31.88
+DBF-Assistant wo knowledge,Extra-P7,Build failure,Initialization failure,Resource error,Configuration error,Change path/location,Change command parameter,32.23
+DBF-Assistant wo knowledge,Extra-P8,Build failure,Incorrect output,Security error,Security error,Modify authentication setting,Modify authentication setting,29.86
+DBF-Assistant wo knowledge,Extra-P9,Build failure,Build failure,Environment error,Environment error,Change container architecture,Change OS environment,28.83
+DBF-Assistant wo knowledge,Extra-P10,Build failure,Initialization failure ,Dependency error,Dependency error,Change file name,Add missing dependency,31.06
+DBF-Assistant wo knowledge,Extra-P11,Build failure,Incorrect output ,Security error,Execution error,Change file/directory permission,Change command parameter,36.09
+DBF-Assistant wo knowledge,Extra-P12,Build failure,Unexpected process ,Dependency error,Execution error,Use compatible dependency,Change command parameter,27.17
+DBF-Assistant wo knowledge,Extra-P13,Build failure,Initialization failure,Dependency error,Execution error,Downgrade dependency version,Change command parameter,30.09
+DBF-Assistant wo knowledge,Extra-P14,Build failure,Incorrect output,Execution error,Execution error,Modify tool/plugin setting,Change command parameter,32.5
+human,Extra-P1,Incorrect output,Incorrect output,Configuration error,Configuration error,Modify build argument,Modify build argument,2422.9
+human,Extra-P2,Build failure,Build failure,Security error,Security error,Delete redundant files,Change file/directory permission,1940.6
+human,Extra-P3,Unexpected process,Unexpected process,Execution error,Execution error,Modify code/script logic,Modify build argument,2235.4
+human,Extra-P4,Initialization faiure,Build failure,Configuration error,Resource error,Change path/location,Change path/location,2137.3
+human,Extra-P5,Build failure,Build failure,Environment error,Dependency error,Upgrade Docker version,Change base image,2514.2
+human,Extra-P6,Build failure,Build failure,Execution error,Execution error,Modify build argument,Modify build argument,1796.3
+human,Extra-P7,Build failure,Build failure,Resource error,Configuration error,Change path/location,Modify build argument,2709.1
+human,Extra-P8,Build failure,Initialization failure,Security error,Configuration error,Modify authentication setting,Use suitable command,2528.8
+human,Extra-P9,Build failure,Build failure,Environment error,Dependency error,Change container architecture,Add missing dependency,2021.8
+human,Extra-P10,Build failure,Build failure,Dependency error,Dependency error,Change file name,Use compatible dependency,1744.9
+human,Extra-P11,Build failure,Build failure,Security error,Security error,Change file/directory permission,Modify tool/plugin setting,2523.1
+human,Extra-P12,Build failure,Initialization failure,Dependency error,Environment error,Use compatible dependency,Modify network setting,2108.7
+human,Extra-P13,Build failure,Initialization failure,Dependency error,Environment error,Downgrade dependency version,Add missing dependency,2514.8
+human,Extra-P14,Build failure,Build failure,Execution error,Resource error,Modify tool/plugin setting,Modify tool/plugin setting,2070.2
