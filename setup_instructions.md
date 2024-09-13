@@ -19,5 +19,5 @@ DBF-Assistant leverages the Large Language Model (LLM) and Retrieval Augmented G
 - Go to the `documents` folder, upload our DBF knowledge documents to the `Knowledge base` of Dify
 - Segment and clean the document, and preview the effect
 - Wait for the chunks to be embedded
-- Define system configuration and load MLOps knowledge
+- Define system configuration and load DBF knowledge
 - Deploy the agent
