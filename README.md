@@ -35,7 +35,9 @@ To evaluate DBF-Assistant, we focus on the identification performance and conduc
 
 
 ## Snapshot
+- Scenario-1. Basic knowledge acquisition: It allows developers to query and learn knowledge related to symptoms, root causes and fix patterns of DBFs.
 ![1726235130(1)](https://github.com/user-attachments/assets/31f32765-6569-4df9-81e3-fcd90fd73471)
 
+- Scenario-2. DBF identification, localization, and fix recommendation: It supports the prediction of symptom, root cause, and fix pattern types based on developer-supplied build fault descriptions, and can further recommend fixes. 
 ![1726235085(1)](https://github.com/user-attachments/assets/c3262bfc-930b-4d34-b20e-d904b988906e)
 
