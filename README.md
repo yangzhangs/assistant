@@ -1,4 +1,4 @@
-# DBF-Assistant Info
+# DBF-Assistant Information
 
 We implement a knowledge-based application named DBF-Assistant to assist developers in understanding and fixing DBFs.
 
@@ -11,7 +11,7 @@ DBF-Assistant involves the interaction with developers through a chat interface 
 - Stage-2. Knowledge retrieval: After a query being initiated, DBF-Assistant uses the Embedding model and Vector DB to interpret the query, semantically search for relevant context within the knowledge base, and rank contexts based on their relevance to the input query.
 - Stage-3. Response generation: Once relevant context is identified, DBF-Assistant formulates a model input that combines system prompt, query, and retrieved context. The model input is then processed through a pretrained LLM, providing LLM with a more comprehensive understanding of the domain-specific knowledge. Then, LLM uses its in-context learning abilities to generate a coherent and contextually appropriate response. Finally, the response is sent back to the developer through the chat interface.
 
-## MLOps knowledge
+## DBF knowledge
 To construct the DBF knowledge, we collect three types of documents: 
 
 - Empirical findings: We summarize the derived DBF symptoms, root causes, and fix patterns into a DOC document, including their categories and brief descriptions;
@@ -19,7 +19,7 @@ To construct the DBF knowledge, we collect three types of documents:
 root cause, and fix pattern labels;
 - Docker official documents: We collect several HTML pages about Docker build in Docker’s official website, e.g., Docker build overview and Build context.
 
-The MLOps knowledge documents can be found in `documents` folder.
+The DBF knowledge documents can be found in `documents` folder.
 
 ## Setup instructions
 DBF-Assistant is implemented in Dify and Ollama frameworks. The detaied setup instructions can be found in `setup_instructions.md`. DBF-Assistant uses Nomic Embed model to generate embeddings, and uses Google’s Gemma 2 model to learn knowledge and generate response.
